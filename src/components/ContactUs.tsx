@@ -19,7 +19,7 @@ const ContactUs = () => {
             <div className="grid gap-5 px-5">
               <div>
                 <img
-                  src="/img/companygrouppic2.png"
+                  src="/client-portfolio-deployment/img/companygrouppic2.png"
                   alt=""
                   className="h-[220px] w-full rounded-xl object-cover shadow-md"
                 />

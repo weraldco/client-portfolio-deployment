@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="grid">
+      <div className="z-50 grid bg-white">
         <header className="grid w-full place-content-center border-b-2">
           <nav className="grid grid-flow-row px-3 py-2 lg:grid-cols-2">
             <div className="flex place-content-center gap-3 text-xs text-gray-500 lg:place-content-start">
@@ -51,12 +51,16 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex gap-2">
               <Link to="/">
-                <img src="/img/logo4.png" alt="" className="w-[250px]" />
+                <img
+                  src="/client-portfolio-deployment/img/logo4.png"
+                  alt=""
+                  className="w-[250px]"
+                />
               </Link>
             </div>
 
             {/* Menu */}
-            <div className="navbar-menu fixed top-[260px] z-50 hidden w-full items-center bg-white py-10 text-center text-[0.95em] duration-300 ease-in-out lg:static lg:block lg:translate-x-[0]">
+            <div className="navbar-menu fixed top-[260px] z-50 hidden w-full items-center py-10 text-center text-[0.95em] duration-300 ease-in-out lg:static lg:block lg:translate-x-[0]">
               <ul className="bottom-0 top-10 grid gap-8 lg:grid-flow-col">
                 <NavLink
                   to="/"
@@ -69,7 +73,7 @@ const Navbar = () => {
                   </li>
                 </NavLink>
                 <NavLink
-                  to="/services"
+                  to="/client-portfolio-deployment/services"
                   className={({ isActive }) => {
                     return isActive ? `rounded-full bg-orange-50` : "";
                   }}
@@ -79,7 +83,7 @@ const Navbar = () => {
                   </li>
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="/client-portfolio-deployment/about"
                   className={({ isActive }) => {
                     return isActive ? `rounded-full bg-orange-50` : "";
                   }}
@@ -126,7 +130,7 @@ const Navbar = () => {
                   </li>
                 </NavLink>
                 <NavLink
-                  to="/services"
+                  to="/client-portfolio-deployment/services"
                   className={({ isActive }) => {
                     return isActive ? `bg-orange-50` : "";
                   }}
@@ -139,7 +143,7 @@ const Navbar = () => {
                   </li>
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="/client-portfolio-deployment/about"
                   className={({ isActive }) => {
                     return isActive ? `bg-orange-50` : "";
                   }}

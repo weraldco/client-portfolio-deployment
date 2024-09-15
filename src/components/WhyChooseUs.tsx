@@ -24,7 +24,11 @@ const WhyChooseUs = () => {
           </div>
           <div className="grid gap-10 lg:grid-flow-col">
             <div className="grid place-content-center lg:hidden">
-              <img src="/img/heart.png" alt="" className="w-[400px]" />
+              <img
+                src="/client-portfolio-deployment/img/heart.png"
+                alt=""
+                className="w-[400px]"
+              />
             </div>
             <span className="grid gap-5">
               Join us and discover our mission and vission, we help you
@@ -66,7 +70,7 @@ const WhyChooseUs = () => {
               </ul>
             </span>
             <div className="hidden place-content-center lg:grid">
-              <img src="/img/heart.png" alt="" />
+              <img src="/client-portfolio-deployment/img/heart.png" alt="" />
             </div>
           </div>
         </div>

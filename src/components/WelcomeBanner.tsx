@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="">
-            <img src="/img/plantvest2.png" alt="" />
+            <img src="/client-portfolio-deployment/img/plantvest2.png" alt="" />
           </div>
         </div>
       </WrapperDiv>

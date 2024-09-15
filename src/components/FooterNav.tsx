@@ -14,7 +14,11 @@ const FooterNav = () => {
         <div className="grid gap-5 p-5">
           <nav className="grid grid-flow-col items-center">
             <div>
-              <img src="/img/logo4-white.png" alt="" className="w-[250px]" />
+              <img
+                src="/client-portfolio-deployment/img/logo4-white.png"
+                alt=""
+                className="w-[250px]"
+              />
             </div>
             <div>
               <ul className="grid grid-flow-col text-xs text-gray-300 lg:text-base">
@@ -22,10 +26,12 @@ const FooterNav = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li className="rounded-full px-4 py-2 transition-all hover:font-bold">
-                  <Link to="/services">Services</Link>
+                  <Link to="/client-portfolio-deployment/services">
+                    Services
+                  </Link>
                 </li>
                 <li className="rounded-full px-4 py-2 transition-all hover:font-bold">
-                  <Link to="/about">About us</Link>
+                  <Link to="/client-portfolio-deployment/about">About us</Link>
                 </li>
               </ul>
             </div>

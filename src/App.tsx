@@ -16,8 +16,18 @@ function App() {
           {/* Content section here */}
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/services" element={<Services />}></Route>
-            <Route path="/about" element={<AboutUs />}></Route>
+            <Route
+              path="/client-portfolio-deployment/"
+              element={<Home />}
+            ></Route>
+            <Route
+              path="/client-portfolio-deployment/services"
+              element={<Services />}
+            ></Route>
+            <Route
+              path="/client-portfolio-deployment/about"
+              element={<AboutUs />}
+            ></Route>
             <Route path="*" element={<PageNotFound />}></Route>
           </Routes>
 

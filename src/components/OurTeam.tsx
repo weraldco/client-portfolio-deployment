@@ -23,22 +23,22 @@ const OurTeam = () => {
 
           <div className="grid place-content-center gap-y-20 lg:grid-cols-4">
             <Advisor
-              img_url="/img/advisor/advisor1.png"
+              img_url="/client-portfolio-deployment/img/advisor/advisor1.png"
               name="Alexander Great"
               job="Professional Adviser"
             />
             <Advisor
-              img_url="/img/advisor/advisor2.png"
+              img_url="/client-portfolio-deployment/img/advisor/advisor2.png"
               name="Sophia Andres"
               job="Professional Adviser"
             />
             <Advisor
-              img_url="/img/advisor/advisor4.png"
+              img_url="/client-portfolio-deployment/img/advisor/advisor4.png"
               name="Keith Martin"
               job="Professional Adviser"
             />
             <Advisor
-              img_url="/img/advisor/advisor5.png"
+              img_url="/client-portfolio-deployment/img/advisor/advisor5.png"
               name="Lylia Cortes"
               job="Professional Adviser"
             />

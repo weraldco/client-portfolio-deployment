@@ -40,7 +40,7 @@ const FeedbackItem = () => {
         <div className="grid grid-flow-col place-content-end gap-3">
           <div className="grid place-content-center">
             <img
-              src="/img/member/member1.png"
+              src="/client-portfolio-deployment/img/member/member1.png"
               alt=""
               className="h-14 w-14 rounded-full object-cover"
             />

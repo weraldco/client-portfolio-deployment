@@ -19,7 +19,7 @@ const PopularCause = () => {
 
           <div className="grid gap-10 lg:grid-flow-col">
             <CauseItem
-              imgUrl="/img/cause/cause3.png"
+              imgUrl="/client-portfolio-deployment/img/cause/cause3.png"
               label="Investement"
               title="You see the result of Investment"
               content="To offer comprehensive financial planning and investment management
@@ -33,7 +33,7 @@ const PopularCause = () => {
               extraLabel="people invested"
             />
             <CauseItem
-              imgUrl="/img/cause/cause2.png"
+              imgUrl="/client-portfolio-deployment/img/cause/cause2.png"
               label="Education"
               title="You let your child go to School"
               content="To offer comprehensive financial planning and investment management
@@ -47,7 +47,7 @@ const PopularCause = () => {
               extraLabel="people studied"
             />
             <CauseItem
-              imgUrl="/img/cause/cause1.png"
+              imgUrl="/client-portfolio-deployment/img/cause/cause1.png"
               label="Food"
               title="Able to buy food for your everyday"
               content="To offer comprehensive financial planning and investment management
